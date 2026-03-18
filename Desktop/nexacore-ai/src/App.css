@@ -1,0 +1,4 @@
+/* Section transitions */
+section {
+  transition: background 0.3s ease;
+}

@@ -1,0 +1,61 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-deep: #060B14;
+  --bg-card: #0D1A2A;
+  --bg-alt: #0A1525;
+  --cyan: #00D4FF;
+  --purple: #7B2FBE;
+  --teal: #00D4AA;
+  --blue: #0EA5E9;
+  --text-primary: #E2EEFF;
+  --text-muted: #7B9EC7;
+  --border-glow: 1px solid rgba(0, 212, 255, 0.3);
+  --glow: 0 0 20px rgba(0, 212, 255, 0.3);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  overflow-x: hidden;
+  background-color: #060B14 !important;
+  color: #E2EEFF !important;
+}
+
+body {
+  background-color: var(--bg-deep) !important;
+  color: var(--text-primary);
+  font-family: 'Calibri', 'Segoe UI', system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+#root {
+  background-color: #060B14;
+  min-height: 100vh;
+}
+
+section {
+  padding: 100px 5%;
+  min-height: 100vh;
+}
+
+.section-label {
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--cyan);
+  margin-bottom: 12px;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 48px;
+}
