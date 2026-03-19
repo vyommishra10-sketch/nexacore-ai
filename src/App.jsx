@@ -706,7 +706,9 @@ export default function App() {
 
       {[
         { id:"womens-day", text:"🌸 Celebrating Women in Tech — NexaCore proudly supports #WomenInAI", bg:"#9D174D" },
+        { id:"ramadan",    text:"🌙 Ramadan Mubarak! NexaCore wishes peace and prosperity to all celebrating ✨", bg:"#1B4332" },
         { id:"summit",     text:"🚀 NexaCore at Global AI Summit 2026 — Register Now →", bg:null },
+
       ].map(b=><TrendBanner key={b.id} banner={b} accent={t.accent}/>)}
 
       <ResumeBar user={user} onReset={()=>{ clearUser(); setShowOnboarding(true); }} t={t}/>
